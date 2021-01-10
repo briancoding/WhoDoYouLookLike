@@ -52,16 +52,22 @@ body {
     text-align:center;
     font-size: 1.1rem;
     color: black;
-    margin: 90% auto auto auto;
+    margin: auto auto auto auto;
     
 }
 
-.file-upload-content >p{
+.file-upload-content >.p{
     font-family:NanumSquareR; 
     color: black;
+    font-weight:bold;
 }
     
-
+.ad{
+    margin: 33% auto;
+}
+.ad-up{
+    margin:0 auto;
+}
 
 .file-upload {
   background-color: #ffffff;
@@ -125,19 +131,24 @@ body {
   position: relative;
   object-fit: contain;
   border-radius:10px;
-  border:1.5px dashed darkgray;
+  border:1.5px solid darkgray;
   background-color:white;
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-  background-color: #1FB264;
-  border: 1.5px dashed #ffffff;
+  background-color: lightgreen;
+  border: none;
 }
 
 .image-title-wrap {
   padding: 0 15px 15px 15px;
-  color: #222;
+  color: Blue;
+}
+.image-title-wrap >.remove-image{
+    color:White;
+    background-color:skyblue;
+    border:none;
 }
 
 .drag-text {
@@ -147,7 +158,7 @@ body {
 .drag-text h3 {
   font-weight: 500;
   text-transform: uppercase;
-  color: green;
+  color: lightgray;
 }
 
 .file-upload-image {
@@ -169,7 +180,12 @@ body {
   border: 0;
   transition: all .2s ease;
 }
-
+.checking {
+    margin: 0 5%;
+}
+.sub-sub-sub{
+    text-height: center;
+}
 
 input#gender {
   display: none;
@@ -178,7 +194,7 @@ input#gender {
 label {
   cursor: pointer;
   display: inline-block;
-  width: 90px;
+  width: 85px;
   height: 41px;
   box-shadow: 0 0 0 8px #e5e9ea inset;
   border-radius: 30px;
@@ -226,7 +242,7 @@ label {
 input:checked + label > .knob {
   box-shadow: 0 0 0 8px #a1c6dd inset;
   background-color: #e2ecf4;
-  transform: translateX(49px) rotate(-140deg);
+  transform: translateX(49px) rotate(-180deg);
 }
 
 input:checked + label > .knob > i {
