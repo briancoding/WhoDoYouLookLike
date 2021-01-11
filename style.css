@@ -55,6 +55,16 @@ body {
     margin: auto auto auto auto;
     
 }
+.ad-coupang{
+    width:50%;
+    margin-top:5%;
+    margin: 10% auto auto 0;
+    margin-bottom: 0%;
+    display:flex;
+}
+.word{
+    font-size:0.4rem;
+}
 
 .file-upload-content >.p{
     font-family:NanumSquareR; 
@@ -63,7 +73,7 @@ body {
 }
     
 .ad{
-    margin: 33% auto;
+    margin: 0 auto 15% auto;
 }
 .ad-up{
     margin:0 auto;
